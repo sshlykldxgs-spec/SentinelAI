@@ -42,6 +42,9 @@ flowchart TD
 | Replay | 使用 AutoGen 回放客户端和结构合法的固定响应验证执行链。**不代表在线模型调用**。 |
 
 所有上传文件、事件和审批保留在后端进程内存中，重启清空。审批是后端颁发的 1 小时本机 Reviewer 会话（HttpOnly/SameSite Cookie + Origin/角色/状态校验），不是企业 SSO/多租户权限。保持绑定 127.0.0.1，勿用于生产。没有外部检索或外部操作工具。**本项目按代码仓库交付，评委在本机运行；没有独立在线演示链接。**
+### 使用教程
+
+**[SentinelAI 使用教程视频](docs/videos/SentinelAI-tutorial-short.zh-CN.mp4)**
 
 ## 快速启动
 
