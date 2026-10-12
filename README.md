@@ -60,7 +60,7 @@ npm ci
 npm run dev
 ```
 
-打开 [http://127.0.0.1:5173](http://127.0.0.1:5173)。初始页面预置 `demo/suppliers.csv`、`demo/brief.txt` 和决策问题。**不需要任何密钥**：保持 Demo（规则演示）或选择 Replay（离线模型回放），点击「启动多 Agent 分析」，完成后在「决策报告」下载 `.md` 文件。不要把 Replay 的返回当作真实在线推理。
+打开 [http://127.0.0.1:5173](http://127.0.0.1:5173)「无法打开请先在终端运行前端，后端需新开一个终端同时运行以启动完整服务」。初始页面预置 `demo/suppliers.csv`、`demo/brief.txt` 和决策问题。**不需要任何密钥**：保持 Demo（规则演示）或选择 Replay（离线模型回放），点击「启动多 Agent 分析」，完成后在「决策报告」下载 `.md` 文件。不要把 Replay 的返回当作真实在线推理。
 
 要启用 DeepSeek Live，评委自行在本地提供密钥；不要将真实密钥提交到仓库。现有后端支持环境变量 `OPENAI_API_KEY`、`OPENAI_MODEL`、`OPENAI_BASE_URL`（变量名沿用 OpenAI-compatible 接口，并不要求使用 OpenAI 服务）。示例配置在 [backend/.env.example](backend/.env.example)：
 
