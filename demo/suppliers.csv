@@ -1,0 +1,7 @@
+supplier,region,on_time_rate,defect_rate,lead_time_days,monthly_spend_usd
+Northstar Components,APAC,96,1.2,12,186000
+Meridian Electronics,EMEA,82,4.8,27,142000
+Atlas Precision,APAC,91,1.9,18,228000
+Vertex Materials,North America,88,3.6,22,96000
+Helix Manufacturing,APAC,98,0.8,10,174000
+Cobalt Logistics,EMEA,93,2.1,16,74000
